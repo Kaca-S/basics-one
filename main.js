@@ -33,13 +33,51 @@ console.log(`Division ${oranges / lemons}`);
 //prompt(`Enter the price tag:`);
 
 let priceInput = prompt(`Enter the price tag (e.g., $99.49):`);
+
 let priceString = priceInput.slice(1);
+
 let price = parseFloat(priceString);
 
 let discount = price * 0.10;
 let newPrice = price - discount;
 
-
 console.log(`Original price: $${price}`);
 console.log(`Discount amount: $${discount}`);
 console.log(`Your new price is $${newPrice}`);
+
+
+                //Lesson 3
+
+let online;
+online = false;
+        
+if (online) {
+    console.log("You are online");
+ } else {
+ console.log("You are not online");
+}
+
+ /*function isValidPassword(password, username) {
+    return password.length >= 8 ? true : false;
+}
+console.log(isValidPassword("kakakaka"));*/
+
+
+                    // ASSIGNMENT 3
+
+function isValidPassword(password, username) {
+if (password.length < 8) {
+    return false;
+}
+else if (password.includes(' ')) {
+    return false;
+}
+else if (password.includes(username)) {
+    return false;
+}
+else {
+    return true;
+}
+}
+
+console.log(isValidPassword("myPass33", "user"));
