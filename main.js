@@ -81,3 +81,50 @@ else {
 }
 
 console.log(isValidPassword("myPass33", "user"));
+
+/*let x = 5; if (x == 5) {console.log('A'); } else if (x === 5) { console.log('B'); } else { console.log('C'); }
+
+let fruit = 'apple';
+switch (fruit) {
+case 'banana':
+console.log('Banana');
+case 'orange':
+console.log('Orange');
+default:
+console.log('Unkown');
+case 'apple':
+console.log('Apple')
+}
+
+let score = 85;
+
+if (score > 80) {
+    if (score < 90) {console.log('B');
+} else {
+    console.log('A');
+}}
+ else {
+    console.log('C');
+}
+
+function doNothing() {
+    return;
+}
+function add(a,b) {
+    return a+b;
+}
+
+console.log(doNothing());
+console.log(add(5,7));
+
+let value = 0;
+
+if (value) {
+    console.log('True');
+}
+else if (!value) {
+    console.log('False');
+}
+else {
+    console.log('Other');
+} */
